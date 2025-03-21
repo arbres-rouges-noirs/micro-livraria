@@ -24,6 +24,7 @@ body {
 }
 
 .box.cta {
+    background: #eff3f4;
     border-radius: 0;
     border-left: none;
     border-right: none;
@@ -65,6 +66,13 @@ body {
 
 .is-shady:hover {
     box-shadow: 0 10px 16px rgba(0, 0, 0, 0.13), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+.search-bar{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 @media (min-width: 800px) {
